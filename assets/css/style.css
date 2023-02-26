@@ -1,0 +1,597 @@
+/*  ===== FONT Styles ===== */
+
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url('../font/Roboto-Black.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../font/Roboto-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('../font/Roboto-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('../font/Roboto-Light.ttf');
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+/* ===== Header ====== */
+
+header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    margin-bottom: 500px;
+}
+
+header .logo {
+    width: 35px;
+    padding: 30px 10px 0 30px;
+    position: fixed;
+    top: 0;
+}
+
+header .logotext {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    margin-left: 70px;
+    font-family: 'Roboto-Medium';
+}
+
+header .logotext h1 {
+    font-size: 1.6rem;
+}
+
+header .logotext p {
+    font-size: 0.85rem;
+}
+
+aside .illustration {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+}
+
+aside .illustrationdude {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+}
+
+main .largetext {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto-Medium';
+    margin-top: -400px;
+    padding-left: 80px;
+}
+
+main .largetext h2 {
+    font-size: 5rem;
+    width: 50%;
+}
+
+main .largetext p {
+    font-size: 1.5rem;
+    width: 40%;
+    font-family: 'Roboto-Light';
+
+}
+
+main .largetext .rocket {
+    width: 25px;
+}
+
+main article .scroll {
+    margin: 150px 0 90px 0;
+    color: #ff3571;
+    font-size: 1.1rem;
+    font-family: 'Roboto-Medium';
+    padding-bottom: 70px;
+}
+
+main article .arrow {
+    display: none;
+}
+
+
+main .allinone img {
+    max-width: 100%;
+    height: auto;
+}
+
+main .idea {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+main .idea section {
+    display: flex;
+    justify-content: center;
+    margin: 190px 0;
+    width: 100vw;
+    gap: 26px;
+}
+
+main .idea section:nth-of-type(1) h3 {
+    font-size: 5rem;
+    width: 29vw;
+    font-family: 'Roboto-Medium';
+}
+
+main .idea section:nth-of-type(1) img {
+    width: 45px;
+}
+
+main .idea section:nth-of-type(2) p {
+    font-size: 1.6rem;
+    font-family: 'Roboto-Light';
+    width: 47vw;
+    margin-right: 30px;
+    margin-top: 4px;
+    margin-left: -90px;
+    line-height: 35px;
+}
+
+main .textonly {
+    margin: 10px 0 120px 70px;
+}
+
+main .textonly h3 {
+    font-size: 4rem;
+    font-family: 'Roboto-Medium';
+    width: 50%;
+    padding: 0 60px;
+}
+
+main .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 90px;
+    gap: 10px 85    px;
+}
+
+main .askingwhy,
+main .morevalue,
+main .solutions,
+main .sharework {
+    display: flex;
+    gap: 10px;
+    width: 30vw;
+    margin-bottom: 50px;
+}
+
+main .askingwhy img,
+main .morevalue img,
+main .solutions img,
+main .sharework img {
+    width: 2.4vw;
+    margin-bottom: 90px;
+}
+
+main .icons h4,
+main .icons p {
+    width: 25vw;
+}
+
+main .icons h4 {
+    font-size: 1.4rem;
+    font-family: 'Roboto-Medium';
+}
+
+main .icons p {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    font-family: 'Roboto-Light';
+    line-height: 20px;
+}
+
+
+/* =====  Section "Let's Go" ===== */
+
+main .letsgo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+main .letsgo h2 {
+    font-size: 4.5rem;
+    font-family: 'Roboto-Bold';
+    margin-bottom: 40px;
+}
+
+main .letsgo p {
+    font-size: 2rem;
+    font-family: 'Roboto-Light';
+    width: 60%;
+    text-align: center;
+
+}
+
+
+/* ===== Section - Images - 01 02 03 04 ===== */
+
+.one, .two, .three, .four {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 30px 0 30px;
+}
+
+.one section:nth-of-type(1) img,
+.three section:nth-of-type(1) img,
+.two section:nth-of-type(2) img,
+.four section:nth-of-type(2) img  {
+    width: 400px;
+    height: auto;
+}
+
+.one section:nth-of-type(2),
+.three section:nth-of-type(2) {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 37px;
+}
+
+.four .text,
+.two .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 90px;
+    width: 40%;
+}
+
+
+.one section:nth-of-type(2) h3,
+.three section:nth-of-type(2) h3,
+.two section:nth-of-type(1) h3,
+.four section:nth-of-type(1) h3 {
+    font-size: 5rem;
+    font-family: 'Roboto-Medium';
+    color: #dddddd;
+    margin-bottom: 20px ;
+}
+
+.one section:nth-of-type(2) img,
+.three section:nth-of-type(2) img,
+.four .surficon,
+.two .signicon {
+    width: 9%;
+    margin: 15px 0 0 0;
+}
+
+
+.one section:nth-of-type(2) h4,
+.three section:nth-of-type(2) h4,
+.two section:nth-of-type(1) h4,
+.four section:nth-of-type(1) h4 {
+    margin: 20px 0;
+    font-size: 1.8rem;
+    font-family: 'Roboto-Medium';
+}
+
+.one section:nth-of-type(2) p,
+.three section:nth-of-type(2) p,
+.two section:nth-of-type(1) p,
+.four section:nth-of-type(1) p {
+    font-size: 1.5rem;
+    font-family: 'Roboto-Light';
+}
+
+/* ==== INPUT FORM ====  */
+
+.inputform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 90px 0 90px 0;
+}
+
+.inputform h3 {
+    font-size: 4rem;
+    font-family: 'Roboto-Medium';
+    margin-bottom: 25px;
+}
+
+.inputform p {
+    font-size: 1.4rem;
+    font-family: 'Roboto-Light';
+    margin-bottom: 25px;
+}
+
+.inputform input[type="email"] {
+    font-size: 1.5rem;
+    padding: 15px;
+    text-align: center;
+    width: 30vw;
+    box-shadow: 1px 1px 10px 2px rgba(0,0,0, 0.06);
+    border: none;
+}
+
+.inputform input[type="button"] {
+    background-color: #ff3571;
+    width: 15vw;
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    margin-top: 25px;
+}
+
+.inputform input[type="button"]:hover {
+    background: linear-gradient(95deg,#ff3571,purple,black);
+}
+
+/* ===== FOOTER ===== */
+
+footer {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-bottom: 60px;
+    font-size: 1.4rem;
+    font-family: 'Roboto-Light';
+}
+
+
+@media only screen and (max-width: 600px){
+    aside .illustration {
+        width: 50%;
+    }
+    
+    aside .illustrationdude {
+        width: 50%;
+    }
+
+    main .largetext {
+        display: flex;
+        flex-direction: column;
+        margin-top: -330px;
+        font-family: 'Roboto-Medium';
+    }
+    
+    main .largetext h2 {
+        font-size: 3.3rem;
+        width: 70vw;
+        margin: -100px 0 0 -50px;
+    }
+    
+    main .largetext p {
+        font-size: 1.5rem;
+        width: 70vw;
+        font-family: 'Roboto-Light';
+        margin: 10px 0 0 -50px;
+    }
+    
+    main .largetext .rocket {
+        width: 24px;
+    }
+
+    main article .scroll {
+        display: none;
+
+    }
+
+    .allinone img {
+        margin-top: 70px;
+    }
+
+    main .idea section {
+        margin: 50px 120px;
+        width: 50%;
+    }
+    
+    main .idea section:nth-of-type(1) h3 {
+        font-size: 3.1rem;
+        width: 60vw;
+        font-family: 'Roboto-Medium';
+    }
+    
+    main .idea section:nth-of-type(1) img {
+        width: 40px;
+    }
+    
+    main .idea section:nth-of-type(2) p {
+        display: none;
+    }
+
+    
+    main .textonly h3 {
+        font-size: 3.4rem;
+        width: 50%;
+        margin-top: 58px;
+    }
+    
+    main .icons {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    
+    main .askingwhy,
+    main .morevalue,
+    main .solutions,
+    main .sharework {
+        width: 85%;
+        margin-bottom: 50px;
+    }
+    
+    main .askingwhy img,
+    main .morevalue img,
+    main .solutions img,
+    main .sharework img {
+        width: 5vw;
+        margin-bottom: 9px;
+    }
+    
+    main .icons h4,
+    main .icons p {
+        width: 90%;
+    }
+    
+    main .icons h4 {
+        font-size: 1.4rem;
+        font-family: 'Roboto-Medium';
+    }
+    
+    main .icons p {
+        margin-top: 10px;
+        font-size: 1.3rem;
+        font-family: 'Roboto-Light';
+        line-height: 20px;
+    }
+    
+    
+    /* =====  Section "Let's Go" ===== */
+    
+    main .letsgo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    main .letsgo h2 {
+        font-size: 3.3rem;
+        margin-bottom: 30px;
+    }
+    
+    main .letsgo p {
+        font-size: 1.7rem;
+        width: 70%;
+    }
+    
+    
+    /* ===== Section - Images - 01 02 03 04 ===== */
+    
+    .one, .two, .three, .four {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    .one section:nth-of-type(2),
+    .three section:nth-of-type(2) {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 37px;
+    }
+    
+    .four .text,
+    .two .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 90px;
+        width: 40%;
+    }
+    
+    
+    .one section:nth-of-type(2) h3,
+    .three section:nth-of-type(2) h3,
+    .two section:nth-of-type(1) h3,
+    .four section:nth-of-type(1) h3 {
+        font-size: 5rem;
+        font-family: 'Roboto-Medium';
+        color: #dddddd;
+        margin-bottom: 20px ;
+    }
+    
+    .one section:nth-of-type(2) img,
+    .three section:nth-of-type(2) img,
+    .four .surficon,
+    .two .signicon {
+        width: 9%;
+        margin: 15px 0 0 0;
+    }
+    
+    
+    .one section:nth-of-type(2) h4,
+    .three section:nth-of-type(2) h4,
+    .two section:nth-of-type(1) h4,
+    .four section:nth-of-type(1) h4 {
+        margin: 20px 0;
+        font-size: 1.8rem;
+        font-family: 'Roboto-Medium';
+    }
+    
+    .one section:nth-of-type(2) p,
+    .three section:nth-of-type(2) p,
+    .two section:nth-of-type(1) p,
+    .four section:nth-of-type(1) p {
+        font-size: 1.5rem;
+        font-family: 'Roboto-Light';
+    }
+    
+    /* ==== INPUT FORM ====  */
+    
+    .inputform {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+    }
+    
+    .inputform h3 {
+        font-size: 3.3rem;
+    }
+    
+    .inputform p {
+        text-align: center;
+        font-size: 1.4rem;
+        width: 60%;
+    }
+    
+    .inputform input[type="email"] {
+        width: 60vw;
+    }
+    
+    .inputform input[type="button"] {
+        width: 25vw;
+    }
+    
+    
+    /* ===== FOOTER ===== */
+    
+    footer {
+        text-align: center;
+        margin: 0 130px 20px 130px;
+        width: 100%;
+    }
+
+
+
+}
