@@ -63,6 +63,8 @@ header .logotext p {
     font-size: 0.85rem;
 }
 
+/* ===== ASIDE // Picture TOP RIGHT ===== */
+
 aside .illustration {
     position: absolute;
     top: 0;
@@ -75,7 +77,12 @@ aside .illustrationdude {
     top: 0;
     right: 0;
     width: 50%;
+    animation: infinite;
+    animation-duration: 2s;
+    animation-name: illustrationdude;
 }
+
+/* ====== MAIN PART ====== */
 
 main .largetext {
     display: flex;
@@ -362,6 +369,9 @@ footer {
 }
 
 
+/* ======= MOBILE 600PX ======= */
+
+
 @media only screen and (max-width: 600px){
     aside .illustration {
         width: 50%;
@@ -567,6 +577,7 @@ footer {
     
     .inputform h3 {
         font-size: 3.3rem;
+        text-align: center;
     }
     
     .inputform p {
